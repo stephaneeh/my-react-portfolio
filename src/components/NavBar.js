@@ -1,27 +1,9 @@
-import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-// import logo from "../assets/img/logo.png";
 import logo from "../logo.svg";
 
 export const NavBar = ({ currentPage, handlePageChange }) => {
-  const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, seScrolled] = useState("false");
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        seScrolled(true);
-      } else {
-        seScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+    <Navbar>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" onClick={() => handlePageChange("Home")} />

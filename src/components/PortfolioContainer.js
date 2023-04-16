@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavTabs from "./NavBar";
+import NavBar from "./NavBar";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Portfolio from "./pages/Portfolio.js";
@@ -30,9 +30,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );
