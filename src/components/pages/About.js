@@ -14,7 +14,7 @@ export default function About() {
         <p>
           A Full Stack Web Development student with a passion for creating cool
           things. With over 6 years experience in IT Operations, i can't wait to
-          be able to get stuck in and build a new project.
+          be able to get stuck in and build awesome applications.
         </p>
       </Row>
     </Container>

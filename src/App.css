@@ -42,7 +42,7 @@ a {
   color: #6bf6df !important;
 	text-shadow: -4px 4px 10px #6bf6df, 4px -4px 10px #6bf6df;
   transform: scale(1.3);
-  font-weight: bold !important;
+  /* font-weight: bold !important; */
 }
 
 
@@ -59,15 +59,19 @@ a {
   text-align: end;
 }
 
-.footer-bs {
-  background: green !important;
-  position: 
+.footer {
+  background: black !important;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-.footer-img {
-  color: #282c34;
-  height: 20%;
-  width: 20%;
+.footer-img:hover {
+  cursor: pointer;
 }
 
 .App {
