@@ -1,6 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
-import Container from "react-bootstrap/Container";
+import { Row, Col, Container } from "react-bootstrap";
 
 import self from "../../assets/img/self.png";
 

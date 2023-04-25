@@ -6,6 +6,7 @@
   background-image: none;
 }
 
+
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -46,10 +47,20 @@ a {
 }
 
 
+/* Portfolio Content */
+.card {
+  margin-bottom: 20px;
+  width: 350px;
+  height: 20rem;
+}
 
-/* Main Content */
-
-
+.card-img {
+  width: 100%;
+  height: 16rem;
+  position: relative;
+  background-position: center;
+  transition: width .1s;
+}
 
 /* Footer CSS */
 .bkg-text {

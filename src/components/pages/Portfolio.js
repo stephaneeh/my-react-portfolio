@@ -1,9 +1,18 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
+import Projects from "../Projects";
 
 export default function Portfolio() {
   return (
-    <div class="container">
-      <h1 class="text-center">Portfolio</h1>
-    </div>
+    <Container>
+      <Row className="text-center">
+        <h1 style={{ marginTop: 20, marginBottom: 50 }}>
+          Check out some of my work below!
+        </h1>
+      </Row>
+      <Row>
+        <Projects />
+      </Row>
+    </Container>
   );
 }

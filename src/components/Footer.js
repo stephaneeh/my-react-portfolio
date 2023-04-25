@@ -8,7 +8,8 @@ export const Footer = () => {
   const imageStyle = { width: 30, height: 30, margin: 10 };
 
   return (
-    <footer className="fixed-bottom">
+    <footer>
+      {/* <footer className="fixed-bottom"> */}
       <Row>
         <p className="bkg-text">{"<stephaneeh/>"}</p>
       </Row>
