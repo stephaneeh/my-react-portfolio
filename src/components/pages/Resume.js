@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div class="container">
+      <h1 class="text-center">Resume</h1>
     </div>
   );
 }

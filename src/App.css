@@ -3,18 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  /* scroll-padding-top: 75px; */
-  background-attachment: fixed;
-  background-image: linear-gradient(145deg, rgba(0,115,96,1), rgba(0,42,35,1) 70%);
+  background-image: none;
 }
 
 body {
-  /* padding-top: 75px;
-  margin: 0 20px; */
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -27,21 +19,63 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
-
-/* Portfolio Container CSS */
-.portfolio-container {
-  margin: 75px;
+p {
+  margin-bottom: 0px !important;
+  padding: 0px;
 }
 
-.navbar-light {
-  background-color: transparent !important;
+/* NavBar CSS */
+.navbar {
+  background: black !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
+
+a {
+  color: white !important;
+}
+
+.navigation-active {
+  color: #6bf6df !important;
+	text-shadow: -4px 4px 10px #6bf6df, 4px -4px 10px #6bf6df;
+  transform: scale(1.3);
+  font-weight: bold !important;
+}
+
+
+
+/* Main Content */
+
+
+
+/* Footer CSS */
+.bkg-text {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 150px;
+  opacity: 3%;
+  text-align: end;
+}
+
+.footer-bs {
+  background: green !important;
+  position: 
+}
+
+.footer-img {
+  color: #282c34;
+  height: 20%;
+  width: 20%;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
